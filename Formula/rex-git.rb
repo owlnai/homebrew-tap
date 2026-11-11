@@ -1,25 +1,25 @@
 class RexGit < Formula
   desc "A git side pane for Rex: status, diffs, staging, commits drafted by Claude, and sync, with Axel integration."
   homepage "https://github.com/owlnai/rex-git"
-  version "0.5.1"
+  version "0.6.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/owlnai/rex-git/releases/download/v0.5.1/rex-git-aarch64-apple-darwin.tar.xz"
-      sha256 "91bbbc3c771dd0c7d51a4df6b9dcbcfef0874f4b7a1e3acd123f0dc170efd226"
+      url "https://github.com/owlnai/rex-git/releases/download/v0.6.0/rex-git-aarch64-apple-darwin.tar.xz"
+      sha256 "8e5b0c01066c6c587d2bf718af814d8fe24bf6e213ce7e0691b33abc53a267c2"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/owlnai/rex-git/releases/download/v0.5.1/rex-git-x86_64-apple-darwin.tar.xz"
-      sha256 "67eba24cdae8c9fd4a5aac4cffbf5be3e12fea1d6755650210501c9395444521"
+      url "https://github.com/owlnai/rex-git/releases/download/v0.6.0/rex-git-x86_64-apple-darwin.tar.xz"
+      sha256 "0345032b2636f5c5c779326aba0659e13d97e0115cbb9c646189062c4d55143c"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/owlnai/rex-git/releases/download/v0.5.1/rex-git-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "68326bacce5bb52808680abcc9c7eefb84d2fa2fc25e8c4dbe15bae16e40076d"
+      url "https://github.com/owlnai/rex-git/releases/download/v0.6.0/rex-git-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "98205a2aa565b5b39c20aeeea612e818736a2d8a1b877ece1770f5c877accb66"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/owlnai/rex-git/releases/download/v0.5.1/rex-git-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "630ba25ca5c96978a7617e231f1354575468c764e9d58c9ea7799c3b8daaa26b"
+      url "https://github.com/owlnai/rex-git/releases/download/v0.6.0/rex-git-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "041b0550f697d0b9e1fa08347522f1a8303ef9f1e66634c0370089fc742237cd"
     end
   end
   license "MIT"
